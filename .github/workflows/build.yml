@@ -113,7 +113,7 @@ jobs:
         - monaco
         - purley
         - r1000
-        - rtd1296
+        #- rtd1296 # no DSM 7.3 support
         - rtd1619b
         - v1000
 
