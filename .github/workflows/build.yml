@@ -81,7 +81,7 @@ jobs:
         mkdir -p toolkit_tarballs
         pushd toolkit_tarballs/
           archive=base_env-${DSM_VERSION}.txz
-          curl -sSf "$SYNO_TOOLKIT_BASE_URL/$DSM_VERSION/base/$archive" -o $archive
+          aria2c -x 16 -s 16 -o "$archive" "$SYNO_TOOLKIT_BASE_URL/$DSM_VERSION/base/$archive"
         popd
 
 
