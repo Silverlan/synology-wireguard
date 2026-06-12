@@ -32,7 +32,7 @@ on:  # https://docs.github.com/en/actions/reference/events-that-trigger-workflow
       DSM_VERSION:
         description: 'DSM Version'
         required: true
-        default: '7.2'
+        default: '7.3'
 
 
 defaults:
@@ -43,7 +43,7 @@ defaults:
 env:
   # Index browsing: https://archive.synology.com/download/ToolChain/toolkit
   SYNO_TOOLKIT_BASE_URL: https://global.synologydownload.com/download/ToolChain/toolkit
-  DSM_VERSION: '7.2'
+  DSM_VERSION: '7.3'
 
 
 jobs:
@@ -113,7 +113,7 @@ jobs:
         - monaco
         - purley
         - r1000
-        - rtd1296
+        #- rtd1296 # no DSM 7.3 support
         - rtd1619b
         - v1000
 

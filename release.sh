@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSIONS=(6.2 7.0 7.1 7.2)
+VERSIONS=(6.2 7.0 7.1 7.2 7.3)
 ARCHS=(
     "apollolake"
     "armada38x"
