@@ -53,7 +53,6 @@ DS1618+     denverton  6.2         Yes
 DS1817+     avoton     6.2         Yes
 DS1815+     avoton     6.2         Yes
 DS213j      armada370  *N/A*       No (Kernel version too old)
-DS213j      armada370  *N/A*       No (Kernel version too old)
 DS214play   armada370  *N/A*       No (Kernel version too old)
 DS214se     armada370  *N/A*       No (Kernel version too old)
 DS216+II    braswell   6.2         Yes
@@ -71,7 +70,7 @@ DS418play   apollolake 6.2         Yes
 DS713+      cedarview  6.2         Yes
 DS716+II    braswell   6.2         Yes
 DS718+      apollolake 6.2         Yes
-DS720+      geminilake 7.0         Yes
+DS720+      geminilake 7.3         Yes
 DS916+      braswell   6.2/7.0     Yes
 DS918+      apollolake 6.2         Yes
 DS920+      geminilake 7.2         Yes
@@ -97,7 +96,7 @@ HP54NL    DS3615xs         bromolow   6.2         Yes
 
 Installation
 ------------
-1. Check the `releases <https://github.com/runfalk/synology-wireguard/releases>`_
+1. Check the `releases <https://github.com/Silverlan/synology-wireguard/releases>`_
    page for SPKs for your platform and DSM version. If there is no SPK you have to compile it
    yourself using the instruction below. There are also places with `precompiled files <https://www.blackvoid.club/wireguard-spk-for-your-synology-nas/>`
 
